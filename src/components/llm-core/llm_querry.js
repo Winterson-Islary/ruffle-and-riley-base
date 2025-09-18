@@ -2,7 +2,7 @@
  * Implements a helper function to handle communication with the Google Gemini API.
  * This FINAL version is updated to match the latest Gemini API standards.
  */
-import { API_PROVIDER, GEMINI_API_KEY, GEMINI_MODEL } from '../../env';
+import { API_PROVIDER, GEMINI_API_KEY, GEMINI_MODEL } from '../../config';
 
 // --- Configuration ---
 const MAX_RETRIES = 3;
