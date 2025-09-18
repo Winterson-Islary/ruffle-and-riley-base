@@ -13,8 +13,8 @@ const requestQueue = [];
 let isProcessing = false;
 
 // --- Credential Check ---
-if (API_PROVIDER !== "gemini" || !GEMINI_API_KEY || GEMINI_API_KEY === "YOUR_GEMINI_API_KEY_HERE") {
-    console.error("CRITICAL ERROR: Gemini API key is not configured in src/env.js");
+if (API_PROVIDER !== "gemini" || !GEMINI_API_KEY) {
+    console.error("CRITICAL ERROR: Gemini API key is not configured in src/config.js");
 }
 
 /**
